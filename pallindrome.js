@@ -1,13 +1,9 @@
 let str="madam"
 bag="";
-rev=""
-for(i=0;i<str.length;i++){
-bag+=str[i];
-}
 for(j=str.length;j>=0;j--){
-rev+=str[j];
+bag+=str[j];
 }
-if(bag==rev){
+if(bag==str){
 console.log("Yes")
 }else{
 console.log("No")
